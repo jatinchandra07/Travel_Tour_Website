@@ -1,0 +1,25 @@
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input[type="submit"] {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .contact-form form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-form input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
